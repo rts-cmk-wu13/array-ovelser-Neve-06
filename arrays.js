@@ -44,6 +44,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let multi = numbersArray.map((x) => x * 3)
     console.log(multi);
     
+    // --- opgave 6 ---
+
+    console.log(dogsArray.join(''));
+    
 
 
 }) // ends DOMContentLoaded
