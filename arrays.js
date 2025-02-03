@@ -56,6 +56,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     console.log(fruitsArray.indexOf("Blåbær"));
 
+    // --- opgave 8 ---
+
+    let noDog = dogsArray.filter((elements) => elements != "Polly");
+    console.log(noDog);
+    
+    
 
 
 }) // ends DOMContentLoaded
