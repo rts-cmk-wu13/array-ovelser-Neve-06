@@ -6,4 +6,70 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+    // --- opgave 1 ---
+
+    let newNumbers = numbersArray.filter((elements) => elements > 20);
+
+    console.log(newNumbers);
+    
+    
+    // --- opgave 2 ---
+
+    const newCat = catsArray.push('Sniffles');
+    console.log(catsArray);
+    
+    // --- opgave 3a ---
+
+    console.log(dogsArray.includes("Trixie"));
+    
+
+    // --- opgave 3b ---
+
+    console.log(dogsArray.includes("Baxter"));
+    
+
+    // --- opgave 4a ---
+
+    const foundCat = catsArray.find((element) => element == "Bagheera")
+    console.log(foundCat);
+    
+
+    // --- opgave 4b ---
+
+    const foundCat2 = catsArray.find((element) => element == "Salem")
+    console.log(foundCat2);
+    
+    // --- opgave 5 ---
+
+    let multi = numbersArray.map((x) => x * 3)
+    console.log(multi);
+    
+    // --- opgave 6 ---
+
+    console.log(dogsArray.join(''));
+    
+    // --- opgave 7a ---
+
+    console.log(fruitsArray.indexOf("Mango"));
+    
+    // --- opgave 7b ---
+
+    console.log(fruitsArray.indexOf("Blåbær"));
+
+    // --- opgave 8 ---
+
+    let noDog = dogsArray.filter((elements) => elements != "Polly");
+    console.log(noDog);
+    
+    // --- extra ---
+
+    const initialValue = 0;
+    const sumWithInitial = numbersArray.reduce(
+        (accumulator, currentValue) => accumulator + currentValue,
+        initialValue,
+    )
+    console.log(sumWithInitial);
+    
+
+
 }) // ends DOMContentLoaded
