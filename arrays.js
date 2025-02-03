@@ -26,6 +26,18 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- opgave 3b ---
 
     console.log(dogsArray.includes("Baxter"));
+    
 
+    // --- opgave 4a ---
+
+    const foundCat = catsArray.find((element) => element == "Bagheera")
+    console.log(foundCat);
+    
+
+    // --- opgave 4b ---
+
+    const foundCat2 = catsArray.find((element) => element == "Salem")
+    console.log(foundCat2);
+    
 
 }) // ends DOMContentLoaded
