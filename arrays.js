@@ -61,6 +61,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let noDog = dogsArray.filter((elements) => elements != "Polly");
     console.log(noDog);
     
+    // --- extra ---
+
+    const initialValue = 0;
+    const sumWithInitial = numbersArray.reduce(
+        (accumulator, currentValue) => accumulator + currentValue,
+        initialValue,
+    )
+    console.log(sumWithInitial);
     
 
 
