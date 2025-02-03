@@ -18,6 +18,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const newCat = catsArray.push('Sniffles');
     console.log(catsArray);
     
+    // --- opgave 3a ---
+
+    console.log(dogsArray.includes("Trixie"));
     
+
+    // --- opgave 3b ---
+
+    console.log(dogsArray.includes("Baxter"));
+
 
 }) // ends DOMContentLoaded
