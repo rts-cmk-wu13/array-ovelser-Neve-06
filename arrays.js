@@ -48,6 +48,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     console.log(dogsArray.join(''));
     
+    // --- opgave 7a ---
+
+    console.log(fruitsArray.indexOf("Mango"));
+    
+    // --- opgave 7b ---
+
+    console.log(fruitsArray.indexOf("Blåbær"));
+
 
 
 }) // ends DOMContentLoaded
