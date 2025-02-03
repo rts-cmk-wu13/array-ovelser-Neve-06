@@ -12,4 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     console.log(newNumbers);
     
+    
+    // --- opgave 2 ---
+
+    const newCat = catsArray.push('Sniffles');
+    console.log(catsArray);
+    
+    
+
 }) // ends DOMContentLoaded
