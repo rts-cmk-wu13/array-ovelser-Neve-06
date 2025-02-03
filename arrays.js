@@ -39,5 +39,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const foundCat2 = catsArray.find((element) => element == "Salem")
     console.log(foundCat2);
     
+    // --- opgave 5 ---
+
+    let multi = numbersArray.map((x) => x * 3)
+    console.log(multi);
+    
+
 
 }) // ends DOMContentLoaded
